@@ -1,0 +1,21 @@
+body {
+  margin: 0; }
+
+.box {
+  border: none;
+  border-radius: none;
+  -moz-border-radius: none;
+  -webkit-border-radius: none;
+  -o-border-radius: none;
+  -ms-border-radius: none;
+  -khtml-border-radius: none;
+  box-shadow: none; }
+
+
+.login-box {
+  text-align: center; }
+  .login-box .logo_login {
+    width: 390px;
+    height: 315px;
+    background-image: url(../img/logo.png);
+    margin: auto; }

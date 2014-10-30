@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 echo "Installing Android SDK API 19"
 echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
