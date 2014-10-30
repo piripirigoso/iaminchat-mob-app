@@ -63,3 +63,8 @@ This box will install and configure the following:
 * Java JRE
 * Java SDK
 * Android ADT
+=======
+iaminchat-mob-app
+=================
+
+iaminchat-mob-app
