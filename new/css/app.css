@@ -36,3 +36,60 @@
     height: 100%;
     margin-right: 4px;
 }
+
+.thumb {
+    background-color: transparent !important;
+}
+
+section .list li:not(.anchor) {
+    border-bottom: none;
+}
+
+.thumb div {
+    background-color: #fff;
+    border-bottom: inset 1px #cfcfcf;
+}
+
+.thumb.in-left {
+    margin-right: 75px;
+}
+
+.thumb.in-right {
+    margin-left: 75px;
+}
+
+.anchor.trans {
+    background-color: transparent !important;
+}
+
+.list li small {
+    white-space: normal;
+}
+
+.on-bottom {
+    width: 100%;
+    position: absolute;
+    bottom: 46px;
+    background-color: #fff;
+}
+
+.on-bottom fieldset {
+    border-bottom: none;
+}
+
+.on-bottom fieldset input[type="text"] {
+    color: #000;
+}
+
+.on-bottom fieldset input[type="text"]:focus {
+    color: #000;
+}
+
+.on-bottom fieldset input[type="text"]:hover {
+    color: #000;
+}
+
+.list {
+    height: 100%;
+    padding-bottom: 60px;
+}
