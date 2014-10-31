@@ -89,7 +89,18 @@ section .list li:not(.anchor) {
     color: #000;
 }
 
+input[type="date"],
+input[type="date"]:focus,
+input[type="date"]:hover,
+input[type="date"]:active {
+    color: #000;
+}
+
 .list {
     height: 100%;
     padding-bottom: 60px;
+}
+
+header nav a {
+    margin-left: -5px;
 }
