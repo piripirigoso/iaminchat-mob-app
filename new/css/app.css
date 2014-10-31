@@ -51,11 +51,11 @@ section .list li:not(.anchor) {
 }
 
 .thumb.in-left {
-    margin-right: 75px;
+    margin-right: 5%;
 }
 
 .thumb.in-right {
-    margin-left: 75px;
+    margin-left: 5%;
 }
 
 .anchor.trans {
