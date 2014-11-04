@@ -141,6 +141,22 @@ Lungo.Events.init({
 
 Lungo.ready(function() {
 
+    var getChatTab = function(result){
+        $$('#chat').html(result);
+    };
+
+    var getSettingsTab = function(result){
+        $$('#settings').html(result);
+    };
+
+    $$('#activate_chat').tap(function(event) {
+        Lungo.Service.get('/chat_tab.html', "", getChatTab, "html");
+    });
+
+    $$('#activate_settings').tap(function(event) {
+        Lungo.Service.get('/settings_tab.html', "", getSettingsTab, "html");
+    });
+
     // Lungo.Aside.show();
     // Lungo.Router.section("notification");
 
