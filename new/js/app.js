@@ -157,6 +157,8 @@ Lungo.ready(function() {
         Lungo.Service.get('/settings_tab.html', "", getSettingsTab, "html");
     });
 
+    Lungo.Service.get('/chat_tab.html', "", getChatTab, "html");
+
     // Lungo.Aside.show();
     // Lungo.Router.section("notification");
 
